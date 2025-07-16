@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware (CORS, JSON)
 app.use(
   cors({
-    origin: ["https://dusidea.github.io/P10_FRONT", "http://localhost:3000"],
+    origin: ["https://dusidea.github.io", "http://localhost:3000"],
     credentials: true,
   })
 );
